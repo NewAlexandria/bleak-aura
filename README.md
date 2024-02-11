@@ -31,6 +31,8 @@ RSSI: -83
 			Value: bytearray(b'\x00')
 ```
 
+## Characteristics Summary
+
 * Service A, with
   * C1: (write-without-response,write,notify)
 * Service B, with
@@ -46,7 +48,7 @@ Presumed next step is to wireshark for ring-app broadcasts.
 
 # Bibliography and References
 
-## Libararies and apps
+## Libraries and apps
 
 * [bluetility](https://github.com/jnross/Bluetility)
   * `brew install --cask bluetility`
